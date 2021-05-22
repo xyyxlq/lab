@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undefined</title>
+  </head>
+  <body>
+    Open the devtools window and see something😀
+    <script>
+      const obj = {};
+      console.log('obj is: ', obj);
+      console.log('The attribute foo is not in the obj, nor is it in the prototype chain of the obj.' );
+      console.log('obj.foo === null is:', obj.foo === null);
+      console.log('obj.foo is: ', obj.foo);
+    </script>
+  </body>
+</html>
